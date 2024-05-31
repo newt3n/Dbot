@@ -57,7 +57,13 @@ bot.on('message', (msg) => {
       });
     } else {
       // Memberi tahu pengguna bahwa format pesan tidak benar
-      bot.sendMessage(chatId, 'Format pesan tidak benar. Gunakan format: /mix [url] [time] [thread] [rate]');
+      bot.sendMessage(chatId, '*The message format is incorrect. Use format: /mix [url] [time] [thread] [rate] *
+
+Welcome to Free Ddos Bot 
+
+Join Our Telegram Channel⤵️
+@kerala_hacking , @kerala_bots
+');
     }
   }
 });
